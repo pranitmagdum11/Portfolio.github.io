@@ -607,6 +607,7 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #555555;
+ 
 }
 
 .about .content ul {
@@ -615,17 +616,24 @@ section {
 }
 
 .about .content ul li {
+  
   padding-bottom: 10px;
+ 
+  
 }
 
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #34b7a7;
+  
 }
 
 .about .content p:last-child {
   margin-bottom: 0;
+  text-align: justify;
+  text-justify: inter-word;
+  
 }
 
 /*--------------------------------------------------------------
@@ -777,6 +785,10 @@ section {
   color: #222222;
 }
 
+.resume .res-tit {
+align-content: end;
+}
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
@@ -837,6 +849,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: #81bedf;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+ 
 }
 
 .services .section-title{
@@ -845,10 +858,12 @@ section {
   align-items: center;
   justify-content: center;
   color:#393839;
+ 
 }
 
 .services .h2{
   text-align: center;
+  
 }
 
 .services .icon-box .icon {
@@ -860,6 +875,14 @@ section {
   justify-content: center;
   transition: ease-in-out 0.3s;
   position: relative;
+}
+
+#services{
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/achieve.jpg") ;
+  background-repeat: no-repeat;
 }
 
 .services .icon-box .icon i {
@@ -1000,10 +1023,14 @@ section {
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #34b7a7;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .portfolio .portfolio-wrap {
@@ -1025,6 +1052,11 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+}
+.portfolio-wrap{
+  border-width: 1px;
+  border-color: #060707;
+  border-style: solid;
 }
 
 .portfolio .portfolio-wrap img {
@@ -1051,6 +1083,7 @@ section {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
+ 
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -1060,12 +1093,16 @@ section {
   padding: 0;
   margin: 0;
   font-style: italic;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
   z-index: 4;
+  
 }
+
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
@@ -1130,30 +1167,42 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .portfolio-details .portfolio-description {
   padding-top: 30px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*--------------------------------------------------------------
